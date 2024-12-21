@@ -28,7 +28,7 @@ public class PurchaseOrderTest extends BaseTest {
 		productCatalogue.addProductToCart(input.get("productName"));
 		Thread.sleep(5000);
 		CartPage cartPage = productCatalogue.accessShoppingCart();
-
+		//New comments
 		//Shopping Cart
 		boolean match =	cartPage.checkProductInCart(input.get("productName"));
 		Assert.assertTrue(match);		
