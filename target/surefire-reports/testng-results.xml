@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T14:13:22 IST" name="Suite" finished-at="2024-12-05T14:14:06 IST" duration-ms="44191">
+    <groups>
+      <group name="errorhandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation(java.lang.String,java.lang.String)[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" name="loginErrorValidation" class="abhiacademy.tests.ErrorValidationsTest"/>
+      </group> <!-- errorhandling -->
+      <group name="PurchaseOrder">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" name="submitOrder" class="abhiacademy.tests.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.validateOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" name="validateOrder" class="abhiacademy.tests.SubmitOrderTest"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2024-12-05T14:13:22 IST" name="Error Validations Test" finished-at="2024-12-05T14:13:49 IST" duration-ms="27564">
+      <class name="abhiacademy.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:22 IST" name="launchApplication" finished-at="2024-12-05T14:13:27 IST" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation(java.lang.String,java.lang.String)[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:27 IST" name="loginErrorValidation" data-provider="getData" finished-at="2024-12-05T14:13:29 IST" duration-ms="1504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhikumar@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abhiacademy$151]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:29 IST" name="tearDown" finished-at="2024-12-05T14:13:30 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:30 IST" name="launchApplication" finished-at="2024-12-05T14:13:34 IST" duration-ms="3595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation(java.lang.String,java.lang.String)[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:34 IST" name="loginErrorValidation" data-provider="getData" finished-at="2024-12-05T14:13:34 IST" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abhikumar1@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abhiacademy$15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:34 IST" name="tearDown" finished-at="2024-12-05T14:13:36 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:36 IST" name="launchApplication" finished-at="2024-12-05T14:13:42 IST" duration-ms="5338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productOrderErrorVal()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:42 IST" name="productOrderErrorVal" finished-at="2024-12-05T14:13:48 IST" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productOrderErrorVal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.ErrorValidationsTest@443118b0]" started-at="2024-12-05T14:13:48 IST" name="tearDown" finished-at="2024-12-05T14:13:49 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- abhiacademy.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-12-05T14:13:22 IST" name="Submit Order Test" finished-at="2024-12-05T14:14:06 IST" duration-ms="44191">
+      <class name="abhiacademy.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:22 IST" name="launchApplication" finished-at="2024-12-05T14:13:28 IST" duration-ms="6188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:28 IST" name="submitOrder" data-provider="getOrderData" finished-at="2024-12-05T14:13:36 IST" duration-ms="8309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{iterationNum=0, userPassword=Abhiacademy$15, userName=abhikumar@outlook.com, productName=Zara Coat 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:36 IST" name="tearDown" finished-at="2024-12-05T14:13:38 IST" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:38 IST" name="launchApplication" finished-at="2024-12-05T14:13:43 IST" duration-ms="5390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:43 IST" name="submitOrder" data-provider="getOrderData" finished-at="2024-12-05T14:13:51 IST" duration-ms="7553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{iterationNum=1, userPassword=Abhiacademy$15, userName=abhikumar@outlook.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:51 IST" name="tearDown" finished-at="2024-12-05T14:13:52 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:52 IST" name="launchApplication" finished-at="2024-12-05T14:13:56 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:56 IST" name="validateOrder" data-provider="getOrderData" finished-at="2024-12-05T14:13:58 IST" depends-on-methods="abhiacademy.tests.SubmitOrderTest.submitOrder" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{iterationNum=0, userPassword=Abhiacademy$15, userName=abhikumar@outlook.com, productName=Zara Coat 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:58 IST" name="tearDown" finished-at="2024-12-05T14:13:59 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:13:59 IST" name="launchApplication" finished-at="2024-12-05T14:14:03 IST" duration-ms="4468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateOrder(java.util.HashMap)[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:14:03 IST" name="validateOrder" data-provider="getOrderData" finished-at="2024-12-05T14:14:05 IST" depends-on-methods="abhiacademy.tests.SubmitOrderTest.submitOrder" duration-ms="1175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{iterationNum=1, userPassword=Abhiacademy$15, userName=abhikumar@outlook.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abhiacademy.tests.SubmitOrderTest@1fa268de]" started-at="2024-12-05T14:14:05 IST" name="tearDown" finished-at="2024-12-05T14:14:06 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- abhiacademy.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

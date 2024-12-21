@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+	<groups>
+		<run>
+			<include name="PurchaseOrder"></include>
+		</run>
+	</groups>
+
+<listeners>
+	<listener class-name="abhiacademy.testcomponents.Listeners"/>
+</listeners>
+
+
+
+	  <test thread-count="5" name="Submit Order Test">
+	    <classes>
+	      <class name="abhiacademy.tests.SubmitOrderTest"/>
+	    </classes>
+	  </test> <!-- Test -->
+	  <test thread-count="5" name="Error Validations Test">
+	    <classes>
+	      <class name="abhiacademy.tests.ErrorValidationsTest"/>
+	    </classes>
+	  </test> 
+	  <test thread-count="5" name="Purchase Order Test">
+	    <classes>
+	      <class name="abhiacademy.tests.PurchaseOrderTest"/>
+	    </classes>
+	  </test> 
+</suite> <!-- Suite -->
